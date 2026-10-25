@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+
+# App data / generated
+data/faces/
+data/faces.json
+data/people.json
+data/processed.json
+data/timeline.json
+data/faiss.index
+data/progress.json
+data/errors.jsonl
+data/cleanup_moves.jsonl
+py_app/.cache/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

@@ -1,0 +1,8 @@
+PySide6>=6.5
+numpy
+opencv-python
+Pillow>=9.0
+insightface
+onnxruntime
+# FAISS may require platform-specific wheels; try `faiss-cpu` or `faiss` depending on your platform
+faiss-cpu
